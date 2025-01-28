@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className='min-w-xl'>
-      <h1 className='text-5xl text-center font-bold text-gray-700 mb-7'>Password Generator</h1>
+      <h1 className='text-5xl text-center font-bold text-white mb-7'>Password Generator</h1>
       <div className='w-full mx-auto shadow-md rounded-lg px-8 py-10 bg-blue-200 text-center '>
         <div className='flex shadow rounded-lg overflow-hidden mb-4'>
           <input type='text' value={password} className='outline-none w-full py-1 px-3 bg-white text-gray-600' placeholder='Password' ref={passwordRef} readOnly />
@@ -61,7 +61,7 @@ function App() {
           </div>
         </div>
       </div>
-      <p className='mt-3'> Your Generated Password is <b>{password}</b></p>
+      <p className='mt-3 text-white text-xl'> Your Generated Password is <b>{password}</b></p>
     </div>
   )
 }
